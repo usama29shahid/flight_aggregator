@@ -13,6 +13,10 @@ You can get one way fare from https://makemytrip.com and store data into your Po
 
 
 2. Start you **Selenium Grid**
-   1. docker-compose -f docker-compose-selenium.yml up -d
+   * docker-compose -f docker-compose-selenium.yml up -d
 
-3. 
+3. Now you have Selenium chrome webdriver and Postgres up and running.
+4. Create a virtual environmnent and activate the virtual environment
+   * python3 -m venv env
+   * source env/bin/activate
+5. Now clone is github repo
